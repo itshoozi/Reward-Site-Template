@@ -1,0 +1,90 @@
+body {
+  background-color: var(--main-dark);
+}
+
+:root {
+  --main-color: #F3DE8A;
+  --secondary-color: #183446;
+  --curve: 10px;
+  --main-dark: #272838;
+  --main-gay: rgb(255,255,255);
+}
+
+.form-control:focus {
+  border-color: var(--main-color);
+  border-width: 1px;
+  color: var(--main-color);
+  background: var(--secondary-color);
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+
+::selection {
+  background: var(--main-color);
+}
+
+::-moz-selection {
+  background: var(--main-color);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--main-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
+.stn:hover {
+  background: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.form-control {
+  width: 30%;
+  border-radius: var(--curve);
+  background: var(--main-dark);
+  color: var(--main-color);
+  background: var(--main-dark);
+}
+
+.stn {
+  width: 30%;
+  background: var(--main-dark);
+  color: white;
+  border-width: 2px;
+  border-color: var(--main-color);
+  border-radius: var(--curve);
+}
+
+.img-gray {
+  filter: grayscale(100%);
+  border-width: 3px;
+  border-color: var(--main-color);
+}
+
+img:hover {
+  filter: grayscale(0%);
+  border-color: var(--main-color);
+}
+
+.img-active {
+  filter: grayscale(0%);
+}
+
+.card {
+  background: var(--secondary-color);
+  border-radius: 20px;
+  border: 1px solid var(--main-color);
+}
+
+.d-flex.d-xl-flex.justify-content-center.justify-content-xl-center {
+  color: var(--main-color);
+}
+

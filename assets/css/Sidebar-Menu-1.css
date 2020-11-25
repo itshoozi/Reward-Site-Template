@@ -138,6 +138,8 @@ body {
 
 .fa.fa-bars {
   color: var(--main-gay);
+  color: color: var(--main-gay);
+  font-size: 27px;
 }
 
 .d-xl-flex.flex-row.align-items-xl-center {
